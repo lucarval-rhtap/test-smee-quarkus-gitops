@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-smee-quarkus-repository
+spec:
+  url: https://github.com/lucarval-rhtap/test-smee-quarkus
